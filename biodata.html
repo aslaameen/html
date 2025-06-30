@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>BIODATA</legend>
+                <label>First Name:</label>
+                <input type="text" name="firstname"/><br><br>
+                 <label>Last Name:</label>
+                <input type="text" name="lastname"/><br><br>
+                <label>Address:</label>
+                <textarea rows="2" cols="20"></textarea><br><br>
+                <label>Mobile Number:</label>
+                <input type="tel" name="phone" placeholder="mobile number" pattern="[6-9]{1}[0-9]{9}" required <br><br>
+                <label>DOB:</label>
+                <input type="date" id="dob" name="birthday"<br><br>
+                <label>Email</label>
+                <input type="email" id="email" name="email"<br><br>
+                <label>Paaword:</label>
+                <input type="Password" id="password" name="password"<br><br>
+                <label>Gender:</label>
+                <input type="radio" id="gender" name="gender" value="male">Male
+                <input type="radio" id="gender" name="gender" value="female"/>Female<br><br>
+                <label>Qualification:</label>
+                <input type="Checkbox" id="Qualification" name="sslc">sslc
+                <input type="Checkbox" id="Qualification" name="plus two">plus two
+                <input type="Checkbox" id="Qualification" name="degree">degree<br><br>
+                <label>District:</label>
+                <select>
+                    <option>kasarkode</option>
+                    <option>kannur</option>
+                    <option>kozhikode</option>
+                </select><br><br>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
